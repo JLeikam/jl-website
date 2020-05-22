@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 1px;
+  margin: 0;
+  border: none;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Wrapper */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+}
+
+/* Navigation */
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500px;
+  font-size: 25px;
+}
+
+.nav-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-container a:hover {
+  color: #0075c4;
+  cursor: pointer;
+}
+
+/* Typewriter */
+.typewriter {
+  display: flex;
+  flex-direction: column;
+  font-size: 75px;
+}
+
+/* Bio Section */
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-media a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #0075c4;
+  cursor: pointer;
+}
