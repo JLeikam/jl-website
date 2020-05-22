@@ -3,9 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f143b2898f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Josh Leikam | Projects</title>
   </head>
   <body>
-    <h1>Projects</h1>
+    <div class="wrapper">
+      <nav class="nav-container">
+        <img src="img/JLIcon128.jpg" alt="Josh Leikam" />
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+      </nav>
+      <section class="projects">
+        <div class="card">
+          <a>JoshLeikam.com</a>
+          <p>My personal website</p>
+          <p>HTML, CSS, Flexbox</p>
+        </div>
+        <div class="card">
+          <a>Note Archiver</a>
+          <p>
+            Automated text extraction from pictures (OCR) and Kindle Highlights
+          </p>
+          <p>C#, .NET Core, MS Graph API</p>
+        </div>
+        <div class="card">
+          <a>Philosophy Generator</a>
+          <p>Neural network (lstm) based on Friedric Neitzsche</p>
+          <p>Python, Keras</p>
+        </div>
+        <div class="card">
+          <a>DataTrace</a>
+          <p>Habit tracker and micro-journal</p>
+          <p>ReactJS, MongoDB, NodeJS</p>
+        </div>
+        <div class="card">
+          <a>Insight</a>
+          <p>Daily quote iOS app</p>
+          <p>Swift, Firebase</p>
+        </div>
+        <div class="card">
+          <a>IntegrativeMeaning.com</a>
+          <p>Reflections on learning and life</p>
+          <p>GatsbyJS</p>
+        </div>
+      </section>
+      <section class="bio">
+        <div class="portrait">
+          <picture>
+            <!-- <source
+              media="(min-width: 1400px)"
+              srcset="img/JoshLeikamResized18Percent.jpg"
+            />
+            <source
+              media="(min-width: 1200px)"
+              srcset="img/JoshLeikamResized15Percent.jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="img/JoshLeikamResized10Percent.jpg"
+            /> -->
+            <img src="img/JLRiver50C.jpg" alt="Josh Leikam" />
+          </picture>
+        </div>
+        <h1>Josh Leikam</h1>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/joshleikam/"
+            target="_blank"
+            class="fab fa-linkedin fa-3x"
+          ></a>
+          <a
+            href="https://github.com/JLeikam"
+            target="_blank"
+            class="fab fa-github-square fa-3x"
+          ></a>
+          <a
+            href="https://twitter.com/josh_leikam"
+            target="_blank"
+            class="fab fa-twitter-square fa-3x"
+          ></a>
+          <a
+            href="mailto:j.leikam7@gmail.com"
+            target="_blank"
+            class="fas fa-envelope-square fa-3x"
+          ></a>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.X.X/dist/typeit.min.js"></script>
+    <script src="js/typewriter.js"></script>
   </body>
 </html>
