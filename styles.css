@@ -168,6 +168,7 @@ body {
 }
 
 .card a {
+  color: #ffffff;
   word-wrap: break-word;
   font-size: 20px;
   cursor: pointer;
