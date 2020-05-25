@@ -1,7 +1,7 @@
-new TypeIt(".typewriter-text", {
+var typewriter = new Typewriter(".typewriter-text", {
+  delay: 50,
+  deleteSpeed: 50,
   strings: ["Software", "Self", "Meta"],
-  waitUntilVisible: true,
-  breakLines: false,
-  speed: 100,
+  autoStart: true,
   loop: true,
-}).go();
+});
