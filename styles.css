@@ -11,9 +11,30 @@ html {
 }
 
 body {
-  background-color: #000000;
+  background-color: #323840;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  z-index: -1;
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  background-color: #323840;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 /* Animation Fade-in */
@@ -55,6 +76,7 @@ body {
 
 /* Wrapper */
 .wrapper {
+  z-index: 100;
   animation: fadein 1s;
   -moz-animation: fadein 1s; /* Firefox */
   -webkit-animation: fadein 1s; /* Safari and Chrome */
@@ -90,7 +112,7 @@ body {
 
 .nav-container .active {
   text-decoration: underline;
-  text-decoration-color: #333;
+  text-decoration-color: #fff;
 }
 
 /* Typewriter */
@@ -101,13 +123,12 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   font-size: 75px;
-  background-color: #333;
+  background-color: #254e70;
 }
 
 /* Bio */
 .bio {
   margin-top: 20px;
-  /* height: 80%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,11 +155,10 @@ body {
 
 /* About */
 .about {
-  background-color: #333;
+  background-color: #254e70;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* max-width: 50%; */
   margin-top: 20px;
   height: auto;
   padding: 8px;
@@ -163,7 +183,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   flex-shrink: 50%;
-  /* max-height: 500px; */
   max-width: 50%;
 }
 
@@ -176,7 +195,7 @@ body {
   text-align: center;
   margin-top: 10px;
   margin-left: 10px;
-  background-color: #333;
+  background-color: #254e70;
   flex-grow: 1;
   flex-basis: 33.333333%;
   height: auto;

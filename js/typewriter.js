@@ -3,5 +3,5 @@ new TypeIt(".typewriter-text", {
   waitUntilVisible: true,
   breakLines: false,
   speed: 100,
-  loop: true
+  loop: true,
 }).go();
