@@ -16,6 +16,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .footer {
@@ -24,12 +25,9 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
 }
 
-/* ---- particles.js container ---- */
+/* particles.js container */
 #particles-js {
   z-index: -1;
   position: absolute;
@@ -40,43 +38,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-}
-
-/* Animation Fade-in */
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadein {
-  /* Opera */
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 /* Wrapper */
@@ -90,8 +51,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  height: 95vh;
+  justify-content: space-evenly;
+  min-height: 95vh;
+  flex: 1;
 }
 
 /* Navigation */
@@ -99,7 +61,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* height: 80%; */
   font-size: 25px;
   min-height: 300px;
   text-align: center;
@@ -235,7 +196,8 @@ body {
     font-size: 60px;
   }
   .about {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     flex-basis: 100%;
   }
   .about h1 {
@@ -250,5 +212,41 @@ body {
   }
   .bio {
     order: 1;
+  }
+}
+/* Animation Fade-in */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
