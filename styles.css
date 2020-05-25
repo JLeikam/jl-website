@@ -14,14 +14,19 @@ body {
   background-color: #323840;
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-footer {
+.footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 /* ---- particles.js container ---- */
